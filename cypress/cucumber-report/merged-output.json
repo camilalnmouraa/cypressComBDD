@@ -1,0 +1,74 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login;login-bem-sucedido",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login Bem-Sucedido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na página de Login",
+            "result": {
+              "status": "passed",
+              "duration": 2975000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "informo um CPF válido",
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "informo uma senha válida",
+            "result": {
+              "status": "passed",
+              "duration": 401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "pressiono o botão de Login",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "reportTime": "2024/03/05 16:43:16",
+      "browser": {
+        "name": "chrome",
+        "version": "60"
+      },
+      "device": "Local test machine",
+      "platform": {
+        "name": "ubuntu",
+        "version": "16.04"
+      }
+    }
+  }
+]

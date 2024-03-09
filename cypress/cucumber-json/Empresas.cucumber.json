@@ -1,0 +1,292 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Cadastro de Empresas",
+    "line": 2,
+    "id": "cadastro-de-empresas",
+    "tags": [],
+    "uri": "Empresas.feature",
+    "elements": [
+      {
+        "id": "cadastro-de-empresas;cadastro-de-empresa-bem-bem-sucedido",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Cadastro de empresa bem Bem-Sucedido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "cliquei no menu 'Cadastros'",
+            "result": {
+              "status": "passed",
+              "duration": 17032000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 6,
+            "name": "cliquei no primeiro sub-menu 'Empresas'",
+            "result": {
+              "status": "passed",
+              "duration": 164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 7,
+            "name": "cliquei no segundo sub-menu 'Grupo Empresarial'",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "clico no botão 'Novo' na tela Grupo Empresarial",
+            "result": {
+              "status": "passed",
+              "duration": 3198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "preencho o campo 'RazaoSocial' com o valor 'Empresa 01'",
+            "result": {
+              "status": "passed",
+              "duration": 491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "preencho o campo 'Fantasia' com o valor 'Empresa Fantasia'",
+            "result": {
+              "status": "passed",
+              "duration": 603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 13,
+            "name": "preencho o campo 'CNPJ' com o valor 'valor'",
+            "result": {
+              "status": "passed",
+              "duration": 449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "armazeno o identificador do cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "clico no botão 'Salvar' na tela Grupo Empresarial",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "vejo a mensagem de Salvo com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastro-de-empresas;edição-de-cadastro-de-empresa",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Edição de cadastro de Empresa",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "cliquei no menu 'Cadastros'",
+            "result": {
+              "status": "passed",
+              "duration": 10048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 6,
+            "name": "cliquei no primeiro sub-menu 'Empresas'",
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 7,
+            "name": "cliquei no segundo sub-menu 'Grupo Empresarial'",
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 19,
+            "name": "clico no botão 'Filtrar'",
+            "result": {
+              "status": "passed",
+              "duration": 3200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 20,
+            "name": "clico no registro filtrado",
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 21,
+            "name": "preencho o campo 'Fantasia' com o valor 'Editado, check!'",
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 22,
+            "name": "preencho o campo 'CNPJ' com o valor 'valor'",
+            "result": {
+              "status": "passed",
+              "duration": 439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 23,
+            "name": "clico no botão 'Salvar' na tela Grupo Empresarial",
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 24,
+            "name": "vejo a mensagem de Salvo com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastro-de-empresas;exclusão-de-cadastro-de-empresa",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Exclusão de cadastro de Empresa",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "cliquei no menu 'Cadastros'",
+            "result": {
+              "status": "passed",
+              "duration": 8406000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 6,
+            "name": "cliquei no primeiro sub-menu 'Empresas'",
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 7,
+            "name": "cliquei no segundo sub-menu 'Grupo Empresarial'",
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 27,
+            "name": "clico no botão 'Filtrar'",
+            "result": {
+              "status": "passed",
+              "duration": 3270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 28,
+            "name": "clico no registro filtrado",
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 29,
+            "name": "excluo o registro",
+            "result": {
+              "status": "passed",
+              "duration": 1172000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "EmpresasPageLocators": {
+    "Novo": ".btn.btn-novo",
+    "RAZAOSOCIAL": "#razaoSocial",
+    "FANTASIA": "#fantasia",
+    "CNPJ": ".p-inputmask",
+    "Salvar": "app-salvar > .btn",
+    "MSGSALVO": ".p-toast-message-content",
+    "FILTRAR_BUTTON": ".btn-filtrar",
+    "FILTRO_RAZAO_SOCIAL": "#filtro-razaoSocial",
+    "FILTRO_OK_BUTTON": ".btn-confirm > span",
+    "DROPDOWN": "#dropdown-help > .vs",
+    "Excluir": ".dropdown-menu > :nth-child(1)",
+    "EXCLUIR_SIM": ".p-confirm-dialog-accept > .p-button-label",
+    "DIALOGO_SIM": ".p-confirm-dialog-accept > .p-button-label"
+  }
+}

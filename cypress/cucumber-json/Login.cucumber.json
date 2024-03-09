@@ -1,0 +1,252 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Login",
+    "line": 2,
+    "id": "login",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login;login-bem-sucedido",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login Bem-Sucedido",
+        "tags": [
+          {
+            "name": "@BemSucedido",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que sai da página de Login",
+            "result": {
+              "status": "passed",
+              "duration": 9851000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "informo um CPF válido \"44195595002\"",
+            "result": {
+              "status": "passed",
+              "duration": 362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "informo uma senha \"Camila@1204!M\"",
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "pressiono o botão de Login",
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 10,
+            "name": "vejo o código da empresa \"7000\" na página logada",
+            "result": {
+              "status": "passed",
+              "duration": 1187000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;recuperar-senha",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Recuperar Senha",
+        "tags": [
+          {
+            "name": "@RecuperarSenha",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que sai da página de Login",
+            "result": {
+              "status": "passed",
+              "duration": 10100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "pressiono o botão de Recuperação de Senha",
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 16,
+            "name": "informo um CPF válido \"44195595002\"",
+            "result": {
+              "status": "passed",
+              "duration": 364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "pressiono o botão para enviar e-mail",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 18,
+            "name": "vejo o aviso de Recuperação de senha \" E-mail enviado! Verifique a caixa de mensagens do seu e-mail e acesse o link para recuperação de senha.\"",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;tentativa-de-login-com-senha-incorreta",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Tentativa de Login com Senha Incorreta",
+        "tags": [
+          {
+            "name": "@SenhaIncorreta",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 22,
+            "name": "que sai da página de Login",
+            "result": {
+              "status": "passed",
+              "duration": 9665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 23,
+            "name": "informo um CPF válido \"44195595002\"",
+            "result": {
+              "status": "passed",
+              "duration": 312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 24,
+            "name": "informo uma senha \"SenhaIncorreta123\"",
+            "result": {
+              "status": "passed",
+              "duration": 395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 25,
+            "name": "pressiono o botão de Login",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 26,
+            "name": "vejo o aviso \"Usuário e/ou senha incorretos.×\"",
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;tentativa-de-login-com-campos-vazios",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Tentativa de Login com Campos Vazios",
+        "tags": [
+          {
+            "name": "@CampoVazio",
+            "line": 28
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 30,
+            "name": "que sai da página de Login",
+            "result": {
+              "status": "passed",
+              "duration": 8834000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 31,
+            "name": "pressiono o botão de Login",
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 32,
+            "name": "vejo o aviso de campo \"SenhaObrigatório\"",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

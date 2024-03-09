@@ -1,0 +1,182 @@
+{
+  "app": 0,
+  "customMetadata": true,
+  "customData": {
+    "title": "Run info",
+    "data": [
+      {
+        "label": "Project",
+        "value": "Filt Project"
+      },
+      {
+        "label": "Release",
+        "value": "1.0.0"
+      },
+      {
+        "label": "Cycle",
+        "value": "B11221.34321"
+      },
+      {
+        "label": "Execution Start Time",
+        "value": "05/03/2024, 17:14:44"
+      },
+      {
+        "label": "Execution End Time",
+        "value": ""
+      }
+    ]
+  },
+  "style": "style.css",
+  "useCDN": false,
+  "hideMetadata": false,
+  "displayReportTime": true,
+  "displayDuration": true,
+  "browser": 1,
+  "name": "",
+  "version": "version",
+  "time": "2024-03-05T20:14:44.826Z",
+  "features": [
+    {
+      "keyword": "Feature",
+      "name": "Login",
+      "line": 1,
+      "id": "10090285-2e9b-478d-b335-717266370e26-login",
+      "tags": [],
+      "uri": "Login.feature",
+      "elements": [
+        {
+          "id": "login;login-bem-sucedido",
+          "keyword": "Scenario",
+          "line": 3,
+          "name": "Login Bem-Sucedido",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 4,
+              "name": "que estou na página de Login",
+              "result": {
+                "status": "passed",
+                "duration": 2975000000
+              },
+              "time": "00:00:02.975"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 5,
+              "name": "informo um CPF válido",
+              "result": {
+                "status": "passed",
+                "duration": 407000000
+              },
+              "time": "00:00:00.407"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 6,
+              "name": "informo uma senha válida",
+              "result": {
+                "status": "passed",
+                "duration": 401000000
+              },
+              "time": "00:00:00.401"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "pressiono o botão de Login",
+              "result": {
+                "status": "passed",
+                "duration": 94000000
+              },
+              "time": "00:00:00.094"
+            }
+          ],
+          "passed": 4,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 3877000000,
+          "time": "00:00:03.877"
+        }
+      ],
+      "metadata": {
+        "reportTime": "2024/03/05 16:43:16",
+        "browser": {
+          "name": "chrome",
+          "version": "60"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "ubuntu",
+          "version": "16.04"
+        }
+      },
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notDefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notDefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 3877000000,
+      "time": "00:00:03.877",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 0,
+    "passed": 1,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notDefinedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "100.00"
+  },
+  "reportName": "Filt_Project_Test_Report",
+  "scenarios": {
+    "failed": 0,
+    "ambiguous": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "passed": 1,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notDefinedPercentage": "0.00",
+    "passedPercentage": "100.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00"
+  },
+  "totalTime": 0
+}
