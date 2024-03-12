@@ -1,1 +1,5 @@
-/node_modules/
+#Env variables
+cypress.env.json
+
+#Node modules
+node_modules/
